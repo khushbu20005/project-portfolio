@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+    text-align: center;
+    
+}body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #100f0f;
+    color: #fff;
+  }
+  
+  nav {
+    background: #f3eeee;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3.5px #cbc8c8 solid;
+  }
+  .img{
+    height: 2.5rem;
+  }
+  
+  nav .logo {
+    font-size: 1.5rem;
+    color:rgb(7, 10, 43);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+  }
+  
+  nav ul li a {
+    color: rgb(7, 10, 43);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav ul li a :hover{
+    color: orange;
+}
+  
+  .hero {
+    display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+    text-align: center;
+    padding: 3rem 1rem;
+    
+  }
+  .hero:hover{
+        background-color:#b4b0b9; 
+ }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero .orange {
+    color: orange;
+  }
+  
+  .hero .red {
+    color: red;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #24164f;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-image {
+    max-width: 40%;
+    text-align: center;
+  }
+  
+  .avatar {
+    width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .social-icons {
+    margin: 1rem 0;
+  }
+  
+  .social-icons a {
+    color: #00acee;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  nav ul li a :hover{
+    text-decoration: underline;
+    color: #c0a3a32b;
+  }
+  
+  .avatar {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+  }
+  
+  .skills {
+    background: #b4b0b9;
+    padding: 2rem;
+    text-align: center;
+    height:200px ;
+  }
+  
+  
+  .skills h2 {
+    font-size: 2rem;
+  }
+  
+  .skills .yellow {
+    color:orange;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .skills-grid div {
+    background: #222;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+   }
+  
